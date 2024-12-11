@@ -32,13 +32,13 @@ setup(
     package_data={'thoraxe': ['subexons/assets/cluster_plots.html']},
     setup_requires=['pytest-runner'],
     install_requires=[
-        'pandas>0.21.0,<1.5', 'biopython>1.44,<1.78', 'requests', 'numpy<1.20', 
+        'pandas>0.21.0,<1.5', 'biopython>1.44,<1.78', 'requests', 'numpy<1.23', 
         'recordclass', 'urllib3>=1.26.5', 'networkx==2.3.0', 'tabulate'
     ],
     test_suite='tests',
     tests_require=[
         'pytest', 'pytest-cov', 'coveralls', 'codecov', 'pytest-pylint',
-        'pylint','numpy<1.20'
+        'pylint','numpy<1.23'
     ],
     include_package_data=True,
     zip_safe=False,
